@@ -1,0 +1,6 @@
+; Automatically copied by pre-commit hooks. Consider adding this file to .gitignore.
+[flake8]
+max-line-length = 120
+exclude =
+    .venv,
+    __pycache__,

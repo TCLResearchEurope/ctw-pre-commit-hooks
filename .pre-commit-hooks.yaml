@@ -1,0 +1,15 @@
+-   id: ctw-general-hooks
+    name: CTW language-agnostic hooks
+    language: script
+    entry: ./run_general_hooks.py
+    require_serial: true
+-   id: ctw-python-hooks
+    name: CTW Python hooks
+    language: script
+    entry: ./run_python_hooks.py
+    require_serial: true
+-   id: ctw-typescript-hooks
+    name: CTW TypeScript hooks
+    language: script
+    entry: ./run_typescript_hooks.py
+    require_serial: true

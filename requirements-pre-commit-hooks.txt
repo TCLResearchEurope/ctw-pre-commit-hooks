@@ -1,0 +1,4 @@
+# Automatically copied by pre-commit hooks. Consider adding this file to .gitignore.
+flake8==5.0.4
+isort==5.10.1
+black==22.10.0

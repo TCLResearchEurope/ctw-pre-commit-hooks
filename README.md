@@ -1,11 +1,11 @@
 # pre-commit-hooks
-A common set of pre-commit hooks for the whole CTW team.
+A common set of pre-commit hooks for various programming languages. It stores a centralized configuration that can be reused by multiple projects.
 
 # Usage
 Add any hooks listed in the `.pre-commit-hooks.yaml` to your `pre-commit-config.yml`, e.g.:
 ```yaml
 repos:
-  - repo: git@gitlab.com:tcl-research/cloud/libs/pre-commit-hooks.git
+  - repo: https://github.com/TCLResearchEurope/ctw-pre-commit-hooks
     rev: v1.0.0
     hooks:
       - id: ctw-general-hooks
@@ -23,6 +23,9 @@ Currently available hooks are:
 # Release
 Follow the steps below to release a new version of CTW pre-commit hooks:
 1. Modify the source-code.
-2. Describe the changes and bump the version in `CHANGELOG.md`.
+2. Describe the changes and bump the version in `CHANGELOG.md` according to [SemVer](https://semver.org/).
 3. Go through the merge request cycle.
 4. Tag the new release after merging to main.
+
+# Maintainers
+CTW (Cloud Team Warsaw) - Cloud engineers from TCL Research Europe

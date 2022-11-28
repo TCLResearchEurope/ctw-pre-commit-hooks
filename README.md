@@ -2,7 +2,7 @@
 A common set of pre-commit hooks for various programming languages. It stores a centralized configuration that can be reused by multiple projects.
 
 # Usage
-Add any hooks listed in the `.pre-commit-hooks.yaml` to your `pre-commit-config.yml`, e.g.:
+Add any hooks listed in the `.pre-commit-hooks.yaml` to your `pre-commit-config.yaml`, e.g.:
 ```yaml
 repos:
   - repo: https://github.com/TCLResearchEurope/ctw-pre-commit-hooks

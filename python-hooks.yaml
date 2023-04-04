@@ -1,18 +1,18 @@
 repos:
   - repo: https://github.com/pycqa/flake8
-    rev: 5.0.4
+    rev: 6.0.0
     hooks:
       - id: flake8
         name: flake8
         exclude: .venv|__pycache__
   - repo: https://github.com/pycqa/isort
-    rev: 5.10.1
+    rev: 5.12.0
     hooks:
       - id: isort
         name: isort
         exclude: .venv|__pycache__
   - repo: https://github.com/ambv/black
-    rev: 22.10.0
+    rev: 23.3.0
     hooks:
       - id: black
         name: black

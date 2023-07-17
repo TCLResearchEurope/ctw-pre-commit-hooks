@@ -20,6 +20,20 @@ Currently available hooks are:
 
 > Some of the hooks copy configuration files to the root directory of your repository, e.g. flake8. It allows you to install these tools in your workspace and have them check the code directly in IDE rather than waiting for pre-commit to do it.
 
+# Development
+
+If you want to quickly test the changes without pushing to the remote, you can use the `pre-commit try-repo` command for interactive development. Alternatively, you can modify the config so that `repo` points to the local version of this repository and set `rev` to your branch or commit SHA, e.g.:
+
+```yaml
+repos:
+  - repo: /your/workspace/ctw-pre-commit-hooks/
+    rev: your-branch
+    hooks:
+      - id: ctw-general-hooks
+      - id: ctw-python-hooks
+      - id: ctw-typescript-hooks
+```
+
 # Release
 Follow the steps below to release a new version of CTW pre-commit hooks:
 1. Modify the source-code.

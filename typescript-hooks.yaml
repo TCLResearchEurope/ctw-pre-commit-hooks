@@ -4,3 +4,10 @@ repos:
     hooks:
       - id: prettier
         exclude_types: ["markdown"]
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: 'v8.44.0'
+    hooks:
+    -   id: eslint
+        files: \.[jt]sx?$
+        types: [file]
+        args: ["--max-warnings=0"]

@@ -1,3 +1,6 @@
+# Version 1.2.0
+Eslint was added to typescript hook
+
 # Version 1.1.0
 Update hooks to latest versions
 

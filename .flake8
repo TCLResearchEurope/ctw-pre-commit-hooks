@@ -4,4 +4,4 @@ max-line-length = 120
 exclude =
     .venv,
     __pycache__,
-ignore = E203
+ignore = E203,W503

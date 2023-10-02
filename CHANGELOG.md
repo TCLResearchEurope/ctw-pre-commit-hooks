@@ -1,3 +1,6 @@
+# Version 1.2.2
+Blocked W503 in flake8
+
 # Version 1.2.1
 Blocked E203 in flake8, as it collides with Blake
 Added .gitignore

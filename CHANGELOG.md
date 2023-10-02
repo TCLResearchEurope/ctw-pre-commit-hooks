@@ -1,3 +1,7 @@
+# Version 1.2.1
+Blocked E203 in flake8, as it collides with Blake
+Added .gitignore
+
 # Version 1.2.0
 Eslint was added to typescript hook
 

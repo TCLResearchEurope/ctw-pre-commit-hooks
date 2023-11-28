@@ -1,7 +1,7 @@
 # Automatically copied by pre-commit hooks. Consider adding this file to .gitignore.
 [tool.black]
 line-length = 120
-target-version = ["py39"]
+target-version = ["py310"]
 exclude = """
 /(
   | .venv

@@ -1,3 +1,6 @@
+# Version 1.2.3
+Updated Blake to 23.11.0 and change Python to 3.10
+
 # Version 1.2.2
 Blocked W503 in flake8
 

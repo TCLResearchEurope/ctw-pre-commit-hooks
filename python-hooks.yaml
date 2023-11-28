@@ -12,7 +12,7 @@ repos:
         name: isort
         exclude: .venv|__pycache__
   - repo: https://github.com/ambv/black
-    rev: 23.3.0
+    rev: 23.11.0
     hooks:
       - id: black
         name: black
